@@ -11,11 +11,14 @@ body {
 }
 
 header {
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .opcoes-iniciais label {
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
