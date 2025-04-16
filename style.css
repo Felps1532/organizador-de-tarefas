@@ -39,8 +39,8 @@ h1 {
     margin-top: 25px;
     padding-left: 35px;
     padding-right: 35px;
-    display: grid;
-    grid-template-columns: 35% 35% 35%;
+    
+    gap: 15px;
 }
 
 .sub-quadro {
@@ -49,13 +49,13 @@ h1 {
     gap: 15px;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 35%;
     border-radius: 10px;
 }
 
-.button-relatorio{
-    background-color:rgb(255, 187, 0);
-    border-radius: 10px;
+#btn-relatorio{
+    background-color: blue;
+    border: 10px;
     padding: 10px;
     color: white;
     font-size: large;
