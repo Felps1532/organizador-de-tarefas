@@ -28,13 +28,17 @@ header {
     flex-direction: column;
 }
 
+#btn-adicionar {
+    padding: 70px;
+    border-radius: 100%;
+}
+
 h1 {
     margin-top: 50px;
     text-align: center;
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
 #quadro-geral {
     padding: 35px;
     display: grid;
@@ -46,12 +50,4 @@ h1 {
     display: flex;
     flex-direction: column;
     width: 90%;
-=======
-.btn-relatorio {
-    background: #f7cb3a;
-    color: rgb(255, 255, 255);
-    border-radius: 10px ;
-    padding: 10px;
-    font-size: large;
->>>>>>> b033fcac816440ff9097214c59908f79b4585564
 }
