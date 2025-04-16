@@ -34,22 +34,20 @@ h1 {
     text-decoration: underline;
 }
 
-.quadro-geral {
+#quadro-geral {
     color: white;
-    margin-top: 25px;
-    padding-left: 35px;
-    padding-right: 35px;
-    
-    
-    gap: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
 }
 
 .sub-quadro {
     padding: 15px;
     background-color: rgb(83, 83, 83);
-    gap: 15px;
-    
     width: 35%;
+    margin: 5px;
     border-radius: 10px;
 }
 
