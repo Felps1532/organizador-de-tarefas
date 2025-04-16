@@ -35,14 +35,20 @@ h1 {
 }
 
 #quadro-geral {
-    padding: 35px;
+    color: white;
+    margin-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
     display: grid;
     grid-template-columns: 35% 35% 35%;
 }
 
 .sub-quadro {
-    background-color: white;
+    padding: 15px;
+    background-color: rgb(83, 83, 83);
+    gap: 15px;
     display: flex;
     flex-direction: column;
     width: 90%;
+    border-radius: 10px;
 }
