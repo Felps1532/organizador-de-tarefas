@@ -53,8 +53,9 @@ h1 {
     border-radius: 10px;
 }
 
-.btn-relatorio{
-    border: 10px;
+.button-relatorio{
+    background-color:rgb(255, 187, 0);
+    border-radius: 10px;
     padding: 10px;
     color: white;
     font-size: large;
