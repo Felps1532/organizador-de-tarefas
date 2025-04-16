@@ -20,3 +20,14 @@ h1 {
 #quadro-geral {
     background-color: white;
 }
+
+#sub-quadro {
+    display: grid;
+    grid-template-columns: 35% 35% 35%;
+}
+
+#sub-element {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
