@@ -29,7 +29,7 @@
             <label for="">Descrição<input type="text"></label>
         </div>
         <div class="opcoes-iniciais">
-            <button id="btn-adicionar">+</button>
+            <button>+</button>
         </div>
     </header>
 
@@ -37,21 +37,25 @@
 
     <div id="quadro-geral"> <!-- Quadro que engloba todos os sub-quadros -->
         <div class="sub-quadro" id="sub-quadro a-fazer">
-            <h2>A Fazer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2 id="sub-title">A Fazer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam, ratione odit vel unde earum non laborum corrupti illum corporis quasi facere velit aspernatur sit placeat omnis nulla quis porro!</p>
         </div>
         <div class="sub-quadro" id="sub-quadro fazendo">
-            <h2>Em Andamento</h2>
+            <h2 id="sub-title">Em Andamento</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="sub-quadro" id="feito">
-            <h2>Concluído</h2>
+            <h2 id="sub-title">Concluído</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
 
     <!-- ----------------- PARTE DO FERNANDO --------------- -->
-     <button></button>
+     <div class="btn-relatorio">
+        <button>
+            <p>Gerar Relatorio</p>
+        </button>
+     </div>
      
     <script src="index.js"></script>
 </body>
