@@ -14,27 +14,37 @@
 </head>
  
 <body>
+    <h1>Task Organizator</h1>
     <header>
-        <h1>Task Organizator</h1>
         <div class="opcoes-iniciais">
-            
+            <label for="">Tarefas<input type="text"></label>
+            <label for="">Data de início<input type="text"></label>
+            <label for="">Prazo<input type="text"></label>
+        </div>
+        <div class="opcoes-iniciais">
+            <label for="">Prioridade<input type="text"></label>
+            <label for="">Autor<input type="text"></label>
+            <label for="">Descrição<input type="text"></label>
+        </div>
+        <div class="opcoes-iniciais">
+            <button id="btn-adicionar">+</button>
         </div>
     </header>
 
     <!-- --------------- PARTE DO VICTOR -------------- -->
 
     <div id="quadro-geral"> <!-- Quadro que engloba todos os sub-quadros -->
-        <div id="sub-quadro a-fazer">
-            <h2 id="sub-quadro-title1 sub-element">A Fazer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex suscipit id, ullam, repudiandae corrupti eos quisquam debitis incidunt voluptate cupiditate itaque saepe est veritatis ab dolore provident rerum? Consectetur, optio!</p>
+        <div class="sub-quadro" id="sub-quadro a-fazer">
+            <h2>A Fazer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div id="sub-quadro fazendo">
-            <h2 id="sub-quadro-title2 sub-element">Em Andamento</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquam provident ipsam quaerat illum sunt facilis ratione, earum iusto consectetur illo soluta, totam dolor molestiae fugiat id libero laudantium sequi.</p>
+        <div class="sub-quadro" id="sub-quadro fazendo">
+            <h2>Em Andamento</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div id="sub-quadro feito">
-            <h2 id="sub-quadro-title3 sub-element">Concluído</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, molestiae ab voluptatum, harum autem eos odio est aut, totam vel id debitis? A ratione obcaecati repellendus doloremque dicta ullam deserunt.</p>
+        <div class="sub-quadro" id="feito">
+            <h2>Concluído</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
 

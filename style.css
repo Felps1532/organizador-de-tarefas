@@ -10,24 +10,32 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
-h1 {
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.opcoes-iniciais label {
     color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
     margin-top: 50px;
     text-align: center;
     text-decoration: underline;
 }
 
 #quadro-geral {
-    background-color: white;
-}
-
-#sub-quadro {
+    padding: 35px;
     display: grid;
     grid-template-columns: 35% 35% 35%;
 }
 
-#sub-element {
+.sub-quadro {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 90%;
 }
