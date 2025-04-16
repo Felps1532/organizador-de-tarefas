@@ -19,45 +19,57 @@
     <h1>Task Organizator</h1>
     <header>
         <div class="opcoes-iniciais">
-            <label for="">Tarefas<input type="text"></label>
-            <label for="">Data de início<input type="text"></label>
-            <label for="">Prazo<input type="text"></label>
+            <label id="input-tarefa">Tarefa<input type="text"></label>
+            <label id="input-dataInicio">Data de início<input type="text"></label>
+            <label id="input-prazo">Prazo<input type="text"></label>
         </div>
         <div class="opcoes-iniciais">
-            <label for="">Prioridade<input type="text"></label>
-            <label for="">Autor<input type="text"></label>
-            <label for="">Descrição<input type="text"></label>
+            <label for="">Prioridade
+                <select id="select-prioridade">
+                    <option value="mínima">Mínima</option>
+                    <option value="média">Média</option>
+                    <option value="máxima">Máxima</option>
+                </select>
+            </label>
+            <label id="input-autor">Autor<input type="text"></label>
+            <label id="input-descricao">Descrição<input type="text"></label>
         </div>
         <div class="opcoes-iniciais">
-            <button>+</button>
+            <button id="btn-add" onclick="adicionarTarefa()">+</button>
         </div>
     </header>
 
-    <!-- --------------- PARTE DO VICTOR -------------- -->
-
     <div id="quadro-geral"> <!-- Quadro que engloba todos os sub-quadros -->
+        <div class="sub-quadro" id="sub-quadro">
         <div class="sub-quadro" id="a-fazer">
             <h2 id="sub-title">A Fazer</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quisquam, ratione odit vel unde earum non laborum corrupti illum corporis quasi facere velit aspernatur sit placeat omnis nulla quis porro!</p>
+            <div id="a-fazer">  
+
+            </div>
         </div>
         <div class="sub-quadro" id="fazendo">
             <h2 id="sub-title">Em Andamento</h2>
             <p>Felipe e Fernando estão codando.</p>
         </div>
-        <div class="sub-quadro" id="feito">
+        <div class="sub-quadro">
             <h2 id="sub-title">Concluído</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <div id="feito">
+
+            </div>
         </div>
     </div>
+
+    <div class="btn-relatorio">
+        <button>
 <br>
 <br>
     <!-- ----------------- PARTE DO FERNANDO --------------- -->
-     <div >
+     <div class="div-button-relatorio">
         <button class="button-relatorio">
-            <p>Gerar Relatorio</p>
+            <p class="text-button-relatorio">Gerar Relatorio</p>
         </button>
-     </div>
-     
+    </div>
+
     <script src="index.js"></script>
 </body>
 
