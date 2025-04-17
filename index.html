@@ -35,7 +35,9 @@
             <label id="input-descricao">Descrição<input type="text"></label>
         </div>
         <div class="opcoes-iniciais">
-            <button id="btn-add" onclick="adicionarTarefa()">+</button>
+            <div id="btn-add">
+                +
+            </div>
         </div>
     </header>
 
@@ -44,25 +46,31 @@
         <!-- VICTOR CODANDO -->
 
         <div id="quadro-geral"> <!-- Quadro que engloba todos os sub-quadros -->
-            <div class="sub-quadro" id="a-fazer">
+            <div class="sub-quadro">
                 <h2 id="sub-title">A Fazer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum magni in sequi consectetur amet facilis corporis quidem adipisci atque accusantium harum quasi quibusdam explicabo, aliquid alias itaque magnam distinctio dicta.</p>  
+                <div id="a-fazer">
+                    
+                </div>
             </div>
-            <div class="sub-quadro" id="fazendo">
+            <div class="sub-quadro">
                 <h2 id="sub-title">Em Andamento</h2>
-                <p>Felipe e Fernando estão codando.</p>
+                <div id="fazendo">
+
+                </div>
             </div>
-            <div class="sub-quadro" id="feito">
+            <div class="sub-quadro">
                 <h2 id="sub-title">Concluído</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>    
+                <div id="feito">
+
+                </div>
             </div>
         </div>
     
         <!-- ----------------- PARTE DO FERNANDO --------------- -->
         
          <div class="div-button-relatorio">
-            <button class="button-relatorio">
-                <p class="text-button-relatorio">Gerar Relatorio</p>
+            <button id="btn-relatorio">
+                Gerar Relatorio
             </button>
         </div>
 

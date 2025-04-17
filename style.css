@@ -28,12 +28,6 @@ header {
     flex-direction: column;
 }
 
-h1 {
-    margin-top: 50px;
-    text-align: center;
-    text-decoration: underline;
-}
-
 #quadro-geral {
     color: white;
     margin-top: 20px;
@@ -45,10 +39,16 @@ h1 {
 
 .sub-quadro {
     padding: 15px;
-    background-color: rgb(83, 83, 83);
     width: 35%;
     margin: 5px;
     border-radius: 10px;
+    text-align: center;
+}
+
+.sub-quadro h2 {
+    padding: 20px 0;
+    border-radius: 10px;
+    background-color: rgb(83, 83, 83);
 }
 
 #btn-relatorio{
@@ -60,16 +60,32 @@ h1 {
     align-items: center;
 }
 
-.button-inicial{
-    background-color:rgb(255, 153, 0);
-    border-radius: 100px;
-    padding: 20px;
-    color: white;
-    font-size:larger;
-    width: 75px;
-    height: 75px;
-}
-.div-button-relatorio{
+#sub-quadro {
     display: flex;
-    justify-content: safe;
+    flex-direction: column;
+}
+
+#a-fazer, #fazendo, #feito {
+    background-color: rgb(255, 153, 0);
+    border-radius: 10px;
+    padding: 0 25px;
+    margin: 20px 0;
+}
+
+#btn-add {
+    background-color: rgb(14, 218, 14);
+    padding: 30px;
+    border-radius: 10px 10px;
+}
+
+#btn-add:hover {
+    cursor: pointer;
+}
+
+#btn-add:active {
+    background-color: rgba(14, 218, 14, 0.808);
+}
+
+#btn-relatorio {
+    background-color: rgb(255, 153, 0);
 }
