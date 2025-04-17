@@ -10,16 +10,40 @@ body {
     background-color: rgb(37, 37, 37);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-around;
+    background-color: rgb(83, 83, 83);
+    padding-bottom: 20px;
+}
+
 h1 {
     color: white;
     margin-top: 50px;
     text-align: center;
     text-decoration: underline;
+    background-color: rgb(83, 83, 83);
+    grid-column: 3 / 6;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
+.opcoes-iniciais {
+    grid-row: 2;
+    grid-column: 2 / 7;
+}
+
+#colum1 {
+    grid-column: 2 / 3;
+}
+
+#colum2 {
+    grid-column: 4 / 5;
+}
+
+#colum3 {
+    grid-column: 6 / 7;
+    place-items: center;
 }
 
 .opcoes-iniciais label {
@@ -76,6 +100,10 @@ header {
     background-color: rgb(14, 218, 14);
     padding: 30px;
     border-radius: 10px 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
 }
 
 #btn-add:hover {
