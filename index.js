@@ -6,14 +6,14 @@ function adicionarTarefa() {
     let autor = document.getElementById('input-autor').value;
     let descricao = document.getElementById('input-descricao').value;
 
-    let resultado = 
-        "Tarefa: " + tarefa + "<br>"
-        "Data de início: " + dataInicio + "<br>"
-        "Prazo: " + prazo + "<br>"
-        "Prioridade: " + prioridade + "<br>"
-        "Autor: " + autor + "<br>"
-        "Descrição: " + descricao + "<br>"
-    ;
+    // let resultado = 
+    //     "Tarefa: " + tarefa + "<br>"
+    //     "Data de início: " + dataInicio + "<br>"
+    //     "Prazo: " + prazo + "<br>"
+    //     "Prioridade: " + prioridade + "<br>"
+    //     "Autor: " + autor + "<br>"
+    //     "Descrição: " + descricao + "<br>"
+    // ;
 
-    document.getElementById('a-fazer').innerHTML = resultado;
+    document.getElementById('a-fazer').innerHTML = "<div>"+ resultado +"</div>"
 }
